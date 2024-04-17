@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* stying hr */
+hr{
+    height: 1.2px;
+    border: 0;
+    background: white;
+    margin: 50px 100px 50px;
+}
+/* NAvbar stying */
+nav {
+    height: 75px;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+    top: 0px;
+    padding: 0 4.5rem;
+}
+
+#Home li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    padding-top: 13px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+
+/* Main page stying */
+.first_section{
+    padding: 16% 6% 7%
+}
+.imagee{
+    width: 80%;
+}
+.leftsection{
+    width:50%;
+    font-size: 3rem;
+}
+
+/* hobbies section */
+.second_section{
+    background-color: white;
+    padding: 3% 15% 7%;
+    color: black;
+    align-items: center;
+}
+.hobbies_title{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+ .hobbsec{
+    align-items: center;
+    text-align: center;
+    padding: 8% 1% 0;
+    
+ }
+ .row h3{
+    padding: 5%;
+ }
+
+ /* about me */
+ .third_section{
+    padding:5% 7% 10%;
+    align-items: center;
+    text-align: left;
+ }
+ 
+ .myimg{
+    width: 75%;
+    border-radius: 10%;
+ }
+ /* About me section */
+#Aboutme span{
+    color: rgb(230, 21, 21);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#Contact{
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+.btn{
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
