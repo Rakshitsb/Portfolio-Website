@@ -18,44 +18,53 @@
 
 </head>
 <body>
-<section id="title">
-<div class="fluid-container">
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="left">Rakshit's Portfolio</div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
+    <section id="title">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+            <div class="navbar-brand">Rakshit's Portfolio</div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link " href="#Home">Home</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link " href="#hobbies">Myhobbies</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link " href="#Aboutme">Aboutme</a>
+                  <a class="nav-link" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#Contact">Contact me</a>
+                  <a class="nav-link" href="#hobbies">My Hobbies</a>
                 </li>
-            </ul>    
+                <li class="nav-item">
+                  <a class="nav-link" href="#Aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact Me</a>
+                </li>
+              </ul>
             </div>
-</nav>
-</div>
-</section>
+          </nav>
+        </div>
+      </section>
+      
 <section id="Home" class="first_section">
     <div class="row">
         <div class="col-lg-6 col-md-12 leftsection">Hi,My name is <span style="font-weight: bold;">Rakshit</span>
             <div>I am a passionate</div>
             <div> <span id="element"></span></div>
         </div>
-        <div class="col-lg-6 col-md-12 rightsection"><img class="imagee" src="images/main.png" alt=""></div>
+        <div class="col-lg-6 col-md-12 rightsection"><img class="imagee" src="images/laptop.png" alt=""></div>
     </div>
 </section>
 
 <section id="hobbies" class="second_section">
-<div class="hobbies_title">MY HOBBIES</div>
+<div class="hobbies_title ">MY HOBBIES</div>
 
     <div class="row">
         <div class="col-lg-4 col-md-12 hobbsec ">
@@ -64,13 +73,13 @@
             <p>Engaging in coding as a hobby offers a dynamic blend of creativity and problem-solving..</p>
         </div>
     
-        <div class="col-lg-4 col-md-12 hobbsec">
+        <div class="col-lg-4 col-md-12 hobbsec ">
             <i class="fa-solid fa-guitar fa-5x "></i>
             <h3>Playing Guitar</h3>
             <p> Playing guitar is more than just a hobby; it's a passion that ignites creativity and soulful expression.</p>
         </div>
     
-        <div class="col-lg-4 col-md-12 hobbsec">
+        <div class="col-lg-4 col-md-12 hobbsec ">
             <img src="images/man-playing-badminton.png" style="width: 27%;" >
             <h3>Badminton</h3>
             <p>Engaging in hobbies like badminton can provide a perfect blend of physical activity and mental stimulation.</p>
@@ -80,20 +89,27 @@
 
 </section>
 
-<section id="Aboutme" class="third_section">
+<section id="Aboutme" class="third_section ">
     <h1 style="text-align: center; padding-bottom: 4%;">ABOUT ME</h1>
 <div class="row">
-<div class="col-lg-6 col-md-12">
-    
-    <img src="images/WhatsApp Image 2024-04-02 at 16.27.14_01acdabc.jpg" class="myimg"></div>
+<div class="col-lg-6 col-md-12 imagesec">
+    <picture>
+        <source srcset="images/cropped_image.png" media="(max-width: 767px)">
+        <img src="images/WhatsApp Image 2024-04-02 at 16.27.14_01acdabc.jpg" class="myimg">
+    </picture>
+    </div>
 <div class="col-lg-6 col-md-12">
     <p>Hello! I'm Rakshit, a passionate computer engineering student currently pursuing my degree at Aissms Ioit.
         I've always been fascinated by the endless possibilities that technology offers. From software development to hardware design, I find joy in exploring how innovative solutions can solve real-world problems.
     </p>
+    <span>Experience</span>
+    <ul>
+         <li style="font-weight:700;">Intern At BNB Developers</li>
+    </ul>
     <span >Skills</span>
     <ul>
         <li>Sound knowledge of languages like Java, C++, and Python</li>
-        <li>Html,Css,Tailwind,Bootstrap,Javascript,Nodejs</li>
+        <li>Html,Css,Tailwind,Bootstrap,Javascript,<br>Nodejs</li>
         <li>Reactjs,Expressjs,Ejs,Mongo Db,SQL</li>
         <li>(MERN)Full-Stack-Developer</li>
     </ul>
@@ -106,17 +122,16 @@
     <span>Extra-curricular</span>
     <ul>
          <li>Technical Secretary at CESA</li>
-         <li>Technical Head In ACM India</li>
         <li>Documentation Executive At Code-Hub n Cesa</li>
     </ul>
 </div>
 </div>
 </section>
 
-<section id="Contact">
+<section id="Contact" class="">
     <h1 style="text-align: center; font-weight: 600; padding-bottom: 1rem;">LINKS</h1>
-<div class="row">
-    <div class="col-lg-4 col-md-12">    <div class="card " style="width: 18rem;">
+<div class="row ">
+    <div class="col-lg-4 col-md-12 aaa hidden">    <div class="card " style="width: 18rem;">
         <img src="images/linkden.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Linkedin</h5>
@@ -124,7 +139,7 @@
           <a href="https://www.linkedin.com/in/rakshit-badiger-854a73248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-primary" target="_blank">Click here</a>
         </div>
       </div></div>
-    <div class="col-lg-4 col-md-12">    <div class="card " style="width: 18rem;">
+    <div class="col-lg-4 col-md-12 aaa">    <div class="card " style="width: 18rem;">
         <img  src="images/VC5qcGc.jpg" class="card-img-top" style="height: 152px;" alt="...">
         <div class="card-body">
           <h5 class="card-title">Github</h5>
@@ -132,17 +147,16 @@
           <a href="https://github.com/Rakshitsb" class="btn btn-primary" target="_blank">Click here</a>
         </div>
       </div></div>
-    <div class="col-lg-4 col-md-12">    <div class="card " style="width: 18rem;">
+    <div class="col-lg-4 col-md-12 aaa">    <div class="card " style="width: 18rem;">
         <img src="images/resume.jpg" class="card-img-top" style="height: 152px;" alt="...">
         <div class="card-body">
           <h5 class="card-title">Resume</h5>
           <p class="card-text">You can download my resume to get a  overview of my skills, education, and professional background.</p>
-          <a href="#" class="btn btn-primary">Click here</a>
+          <a href="https://drive.google.com/drive/folders/1XipYIy8NaIqIbFSqFB2L4wkJ_fw9ugWV?usp=sharing" class="btn btn-primary" target="_blank">Click here</a>
         </div>
       </div></div>
 </div>
 </section>
-
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
     var typed = new Typed('#element', {
