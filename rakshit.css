@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
     color: white;
+    width:fit-content;
 }
 
 * {
@@ -26,11 +27,20 @@ nav {
     top: 0px;
     padding: 0 4.5rem;
 }
+.navbar-collapse {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+     /* Same color as above */
+  }
 
-#Home li{
-    list-style: none;
-    margin: 0 10px;
+  @media (max-width: 767px) {
+navbar-brand{
+   margin-left: 70px;
 }
+navbar-toggler{
+    margin-right: 0px;
+}
+
 
 a{
     text-decoration: none;
@@ -45,21 +55,46 @@ a{
 .left{
     font-size: 1.5rem;
 }
-
+  }
 
 /* Main page stying */
 .first_section{
     padding: 16% 6% 7%
 }
 .imagee{
-    width: 80%;
+    width: 75%;
 }
 .leftsection{
     width:50%;
     font-size: 3rem;
 }
 
+@media (max-width: 767px) {
+  #Home{
+    align-items: center;
+    text-align: left;
+    font-size: 2px;
+  } 
+  .leftsection{
+    width:max-content;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+  }
+  .rightsection{
+    align-items: center;
+  }
+  .imagee{
+    margin: 40px;
+    width: 80%;
+  }
+}
+
 /* hobbies section */
+#hobbies{
+    width: 100%;
+}
 .second_section{
     background-color: white;
     padding: 3% 15% 7%;
@@ -87,25 +122,52 @@ a{
     align-items: center;
     text-align: left;
  }
+ .imagesec{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100%;
+ }
  
  .myimg{
-    width: 75%;
+    width: 65%;
     border-radius: 10%;
  }
  /* About me section */
+ #Aboutme{
+    padding: 50px;
+ }
 #Aboutme span{
     color: rgb(230, 21, 21);
     font-weight: 500;
     font-size: 1rem;
 }
+@media (max-width: 767px) {
+  .imagesec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 20px;
+  }
+  .myimg{
+    margin: 40px;
+  }  
+}
 
 #Contact{
     background-color: white;
     color: black;
-    padding: 5%;
+    padding: 5px;
+    
 }
 .btn{
     background-color: black;
+}
+.aaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 footer {
@@ -114,3 +176,11 @@ footer {
     padding: 20px;
     text-align: center;
   }
+@media (max-width: 767px) {
+    #Contact{
+        width: 100%;
+        padding: 20px;
+    }
+
+  }
+
